@@ -42,28 +42,28 @@ After swap() → x: 5, y: 10
 
 
 # 🔁 Call by Reference in Java (Simulated with Objects)
-
-In Java, **Call by Reference** is **not directly supported** like in languages such as C++. However, Java can **simulate** call by reference behavior using **objects**.
+# 📌 What is Call by Reference?
 
 ---
 
 ## ✅ Definition
 
-**Call by Reference** means passing the **address of a variable** to a method so that changes made to the parameter affect the original value.
+**Call by Reference** means passing the **memory address (reference)** of a variable to a method so that changes affect the original object.
 
-> ⚠️ In Java, even though you cannot pass variables **by reference**, you can pass **object references** (i.e., memory addresses) **by value** — allowing you to modify the object’s internal state.
+> ⚠️ In Java, object references are passed **by value**, but the method receives the reference to the object, which allows modifying its contents.
 
 ---
 
 ## 📙 Meaning
 
-- When you pass an **object** to a method, the method receives a **copy of the reference** to the object.
-- Changes made to the **fields (data members)** of the object **are reflected** outside the method.
-- However, if you try to **reassign** the object itself to a new object inside the method, the original reference remains unchanged.
+- Used with **objects and arrays**.
+- Java passes a **copy of the reference**, so both caller and method refer to the **same object**.
+- **Fields (data members)** can be modified inside the method.
+- Reassigning the object itself does **not affect** the original reference.
 
 ---
 
-## 💡 Example: Swapping Two Values Using Object (Simulated Call by Reference)
+## 💡 Example: Call by Reference (Simulated in Java Using Objects)
 
 ```java
 class Numbers {
@@ -89,6 +89,7 @@ public class CallByReferenceExample {
         System.out.println("After swap() → a: " + num.a + ", b: " + num.b);
     }
 }
+
 ## 💡 Output
 Before swap() → a: 5, b: 10  
 Inside swap() → a: 10, b: 5  
