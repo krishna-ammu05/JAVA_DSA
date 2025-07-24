@@ -1,3 +1,4 @@
+package TypeConversion;
 public class TypeConversion {
     public static void main(String[] args) {
         // Example of implicit type conversion
