@@ -39,7 +39,7 @@ public class CallByValueExample {
 Before swap() → x: 5, y: 10  
 Inside swap() → a: 10, b: 5  
 After swap() → x: 5, y: 10
-
+```
 
 # 🔁 Call by Reference in Java (Simulated with Objects)
 # 📌 What is Call by Reference?
@@ -94,3 +94,4 @@ public class CallByReferenceExample {
 Before swap() → a: 5, b: 10  
 Inside swap() → a: 10, b: 5  
 After swap() → a: 10, b: 5
+```
