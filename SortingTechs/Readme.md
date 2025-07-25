@@ -1,5 +1,5 @@
 
-# 📊 Sorting Algorithms
+#  Sorting Algorithms
 
 Sorting algorithms are techniques used to reorder elements in a list or array in a specific order (ascending or descending). Sorting is essential in computer science for optimizing search operations and organizing data.
 
@@ -17,8 +17,8 @@ Sorting algorithms are techniques used to reorder elements in a list or array in
 
 ---
 
-## 📘 Sorting Algorithms 
-### ✅ 1. Bubble Sort
+##  Sorting Algorithms 
+###  1. Bubble Sort
 
 **Definition**:  
 Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The process is repeated until the list is sorted.
@@ -36,7 +36,7 @@ for (int i = 0; i < n - 1; i++) {
 
 ---
 
-### ✅ 2. Selection Sort
+###  2. Selection Sort
 
 **Definition**:  
 Selection Sort selects the smallest (or largest) element from the unsorted part and places it at the beginning.
@@ -56,7 +56,7 @@ for (int i = 0; i < n - 1; i++) {
 
 ---
 
-### ✅ 3. Insertion Sort
+###  3. Insertion Sort
 
 **Definition**:  
 Insertion Sort builds the sorted array one element at a time by inserting each element into its proper place in the sorted part.
@@ -76,7 +76,7 @@ for (int i = 1; i < n; i++) {
 
 ---
 
-### ✅ 4. Merge Sort
+###  4. Merge Sort
 
 **Definition**:  
 Merge Sort is a divide-and-conquer algorithm that divides the array into halves, sorts each half, and then merges them.
@@ -93,7 +93,7 @@ mergeSort(arr, left, right):
 
 ---
 
-### ✅ 5. Quick Sort
+###  5. Quick Sort
 
 **Definition**:  
 Quick Sort selects a "pivot" element and partitions the array such that elements less than pivot are on one side, and greater on the other. Then it recursively sorts both sides.
@@ -109,7 +109,7 @@ quickSort(arr, low, high):
 
 ---
 
-### ✅ 6. Heap Sort
+###  6. Heap Sort
 
 **Definition**:  
 Heap Sort converts the array into a heap structure (max heap or min heap), and then repeatedly extracts the maximum (or minimum) to build the sorted array.
@@ -125,7 +125,7 @@ heapSort(arr):
 
 ---
 
-### ✅ 7. Counting Sort
+###  7. Counting Sort
 
 **Definition**:  
 Counting Sort works for non-negative integers. It counts the occurrences of each element and uses that information to place them in the correct position.
@@ -139,7 +139,7 @@ Counting Sort works for non-negative integers. It counts the occurrences of each
 
 ---
 
-### ✅ 8. Radix Sort
+###  8. Radix Sort
 
 **Definition**:  
 Radix Sort processes digits from least significant to most significant and uses a stable sort (like Counting Sort) at each digit level.
@@ -152,7 +152,7 @@ for digit from LSD to MSD:
 
 ---
 
-## 📊 Time & Space Complexities
+##  Time & Space Complexities
 
 | Algorithm      | Best Case | Average Case | Worst Case | Space     | Stable |
 |----------------|-----------|--------------|------------|-----------|--------|
