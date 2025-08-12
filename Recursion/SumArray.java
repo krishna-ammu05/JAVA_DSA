@@ -1,3 +1,4 @@
+package Recursion;
 public class SumArray {
     public static int sumArray(int[] arr, int n) {
         // Base case

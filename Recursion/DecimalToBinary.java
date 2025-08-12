@@ -1,3 +1,4 @@
+package Recursion;
 public class DecimalToBinary {
 
     public static void decimalToBinary(int n) {
