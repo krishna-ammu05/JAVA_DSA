@@ -131,7 +131,7 @@ String[] array = list.toArray(new String[0]);
 ```
 
 ---
-# 📊 Difference Between Array and ArrayList in Java
+#  Difference Between Array and ArrayList in Java
 
 | No. | Feature | Array | ArrayList |
 |-----|---------|-------|-----------|
@@ -178,7 +178,7 @@ List<String> syncList = Collections.synchronizedList(new ArrayList<>());
 
 ---
 
-## 📚 References
+##  References
 - [Java Docs - ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
 
 ---
