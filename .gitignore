@@ -13,3 +13,14 @@ Loops/squarePattern.class
 Loops/Reverse.class
 NestedLoops/PrintCharacterPattern.class
 NestedLoops/HalfPyramidPattern.class
+Functions/SumWithParaWithReturn.class
+Functions/SumNoParaWithReturn.class
+Functions/SumWithParaNoReturn.class
+Functions/SumNoParaNoReturn.class
+Functions/Number.class
+Functions/Overloading.class
+Functions/SwapByRef.class
+Functions/SwapByValue.class
+Functions/Factorial.class
+Functions/PrimeNum.class
+Patterns/HolloRectangle.class
